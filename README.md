@@ -36,7 +36,8 @@ const setValue = value || 'new';
 let value;
 let setValue = value || 'bar';
 console.log(setValue === 'bar'); // prints true
-
+```
+```javascript
 value = 'foo';
 setValue = value || 'bar';
 console.log(setValue); // prints foo
