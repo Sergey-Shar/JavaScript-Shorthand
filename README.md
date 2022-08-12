@@ -19,4 +19,25 @@ Shorthand:
 ```javascript
 const answer = x > 10 ? "greater than 10" : "less than 10";
 ```
+## 2. Short-circuit Evaluation Shorthand
 
+Longhand:
+
+```javascript
+if (value !== null || value !== undefined || value !== '') {
+     let setValue = value;
+}
+```
+Shorthand:
+
+```javascriprt
+const setValue = value || 'new';
+
+let value;
+let setValue = value || 'bar';
+console.log(setValue === 'bar'); // prints true
+
+value = 'foo';
+setValue = value || 'bar';
+console.log(setValue); // prints foo
+```
