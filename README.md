@@ -100,3 +100,76 @@ Shothand:
 const declarative = array.filter(Boolean)
 ```
 
+## 6. Object Property Shorthand
+
+Longhand:
+
+```javascript
+const x = 1920, y = 1080;
+const obj = { x:x, y:y };
+```
+Shorthand:
+
+```javascript
+const obj = { x, y };
+```
+
+## 7. Arrow Functions Shorthand
+
+Longhand:
+
+```javascript
+function sayHello(name) {
+  console.log('Hello', name);
+}
+
+setTimeout(function() {
+  console.log('Loaded')
+}, 2000);
+
+list.forEach(function(item) {
+  console.log(item);
+});
+```
+
+Shorthand:
+
+```javascript
+sayHello = name => console.log('Hello', name);
+
+setTimeout(() => console.log('Loaded'), 2000);
+
+list.forEach(item => console.log(item));
+```
+
+## 8. Implicit Return Shorthand
+
+Longhand:
+
+```javascript
+function calcCircumference(diameter) {
+  return Math.PI * diameter
+}
+```
+
+Shorthand:
+
+```javascript
+calcCircumference = diameter => (
+  Math.PI * diameter;
+)
+```
+
+## 9. Double Bitwise NOT Shorthand
+
+Longhand:
+
+```javascript
+Math.floor(4.9) === 4  //true
+```
+
+Shorthand:
+
+```javascript
+~~4.9 === 4  //true
+```
