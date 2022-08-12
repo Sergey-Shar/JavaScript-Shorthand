@@ -43,3 +43,18 @@ value = 'foo';
 setValue = value || 'bar';
 console.log(setValue); // prints foo
 ```
+
+## 3. If Presence Shorthand
+
+Longhand:
+
+```javascript
+if (likeJavaScript === true)
+if (likeJavaScript === false)
+```
+Shorthand:
+
+```javascript
+if (likeJavaScript)
+if (!likeJavaScript)
+```
