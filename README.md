@@ -30,7 +30,7 @@ if (value !== null || value !== undefined || value !== '') {
 ```
 Shorthand:
 
-```javascriprt
+```javascript
 const setValue = value || 'new';
 ```
 ```javascript
