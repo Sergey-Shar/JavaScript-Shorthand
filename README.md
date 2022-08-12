@@ -32,11 +32,14 @@ Shorthand:
 
 ```javascriprt
 const setValue = value || 'new';
+```
 
+```javascript
 let value;
 let setValue = value || 'bar';
 console.log(setValue === 'bar'); // prints true
 ```
+
 ```javascript
 value = 'foo';
 setValue = value || 'bar';
