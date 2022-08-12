@@ -59,7 +59,7 @@ if (likeJavaScript)
 if (!likeJavaScript)
 ```
 
-## 4. . Decimal Base Exponents
+## 4. Decimal Base Exponents
 
 Longhand:
 
@@ -78,5 +78,25 @@ for (let i = 0; i < 1e7; i++) {}
 1e3 === 1000;
 1e4 === 10000;
 1e5 === 100000;
+```
+
+## 5. JavaScript For Loop Shorthand
+
+Longhand:
+
+```javascript
+const array = [4, 8, 15, null, 23, undefined]
+const imperative = []
+for (let i = 0, len = array.length; i < len; ++i) {
+    if (array[i]) {
+        imperative.push(array[i])
+    }
+}
+```
+
+Shothand:
+
+```javascript
+const declarative = array.filter(Boolean)
 ```
 
