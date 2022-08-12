@@ -1,6 +1,6 @@
 # JavaScript-Shorthand
 
-1. The Ternary Operator 
+## 1. The Ternary Operator 
 
 Longhand:
 
@@ -11,9 +11,8 @@ let answer;
 if (x > 10) {
     answer = "greater than 10";
 } else {
-    answer =  "less than 10";
-}  console.log"less than 10";
-}
+    answer = "less than 10";
+} 
 ```
 Shorthand:
 
