@@ -28,6 +28,7 @@ if (value !== null || value !== undefined || value !== '') {
      let setValue = value;
 }
 ```
+
 Shorthand:
 
 ```javascriprt
